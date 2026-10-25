@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Decora - Our Story, Vision, and Mission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #fdfcfb;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            color: #fffcf9;
+            background: url(image/bg.jpg);
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .page-section {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            overflow: hidden;
+            
+        }
+
+        .container {
+            max-width: 56rem; /* max-w-4xl */
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        .title-underline {
+            width: 6rem;
+            height: 0.25rem;
+            background-image: linear-gradient(to right, #a16207, #713f12);
+            margin: 1rem auto 0;
+            border-radius: 9999px;
+        }
+
+        .about-text p {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            text-align: justify;
+            margin-bottom: 1.5rem;
+        }
+        .about-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* --- Vision & Mission Section --- */
+        .vision-mission-item {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .vision-mission-image {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+
+        .vision-mission-text {
+            flex: 1;
+            text-align: center;
+            color: #000000;
+        }
+        
+        .vision-mission-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #a16207;
+            margin-bottom: 1rem;
+        }
+        .vision-mission-title2  {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+
+        /* --- Animations --- */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeInUp {
+            opacity: 0; 
+            animation: fadeInUp 0.7s ease-out forwards;
+        }
+
+        /* --- Responsive --- */
+        @media (min-width: 768px) {
+            .section-title {
+                font-size: 3rem;
+                line-height: 1;
+            }
+            .vision-mission-item {
+                flex-direction: row;
+            }
+            .vision-mission-text {
+                text-align: left;
+            }
+            /* Alternate layout for the second item */
+            .vision-mission-item:nth-child(odd) {
+                flex-direction: row-reverse;
+            }
+             .vision-mission-item:nth-child(odd) .vision-mission-text {
+                text-align: right;
+            }
+        }
+        nav{
+            display: flex;
+            position: absolute;
+            top: 30px;
+            right: 100px;
+            align-items: center;
+            gap: 3rem;
+            color: #ffffff;
+            font-weight: 700;
+            margin-left: -5%;
+        }
+        nav a{
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        transition: color 0.2s ease;
+        text-decoration: none;
+        text-shadow: 0 5px 10px #0004;
+        color: inherit;
+        }
+        
+        nav a:hover{
+        color: #a7a7a7;
+        }
+    </style>
+</head>
+<body>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="packages.html">Services</a>
+                <a href="#">Contact us</a>
+            </nav>
+    <div id="about-us">
+        <section class="page-section">
+            <div class="container">
+                <div class="section-header animate-fadeInUp" style="animation-delay: 0.1s;">
+                    <h1 class="section-title font-serif">About Us</h1>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- About Us Content -->
+                <div class="about-text">
+                    <p class="animate-fadeInUp" style="animation-delay: 0.3s;">
+                        At Decora, we bring your special moments to life with beautifully curated event decorations and planning services. Our team specializes in a wide range of celebrations, including church weddings, poruwa weddings, beach weddings, homecoming events, engagements, proposals, and “bride-to-be” parties. With a passion for creativity and a commitment to excellence, we ensure every event is uniquely designed to reflect your vision and make lasting memories.
+                    </p>
+                    <p class="animate-fadeInUp" style="animation-delay: 0.4s;">
+                        Our expertise also extends to a wide variety of other events, including birthday parties for all ages, holy communion celebrations, corporate events, Christmas gatherings, and New Year celebrations—both December 31st and the Sinhala and Tamil New Year. We also specialize in themed events tailored to your unique ideas.
+                    </p>
+                    <p class="animate-fadeInUp" style="animation-delay: 0.5s;">
+                        What sets Decora apart is our commitment to custom-made designs. Whether it’s wood or steel structures, every element is built from scratch to perfectly match your vision. Our craftsmanship and attention to detail ensure you receive exactly what you imagined.
+                    </p>
+                    <p class="animate-fadeInUp" style="animation-delay: 0.6s;">
+                        Since our launch in 2023, Decora has grown into a passionate team of 10 professionals, including specialists in woodwork, steelwork, and event decoration. We are proud to have served a variety of clients, including prestigious organizations like the Lion’s Club.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="page-section" style="background-color: #fafaf9;">
+            <div class="container">
+                <!-- Vision Item -->
+                <div class="vision-mission-item animate-fadeInUp" style="animation-delay: 0.7s;">
+                    <img src="image/eye.jpg" alt="A collage of beautifully decorated events representing the company's vision" class="vision-mission-image">
+                    <div class="vision-mission-text">
+                        <div class="vision-mission-title2">Our Vision</div>
+                        <p>To be the most trusted event planning brand, known for creating extraordinary and personalized experiences that turn every celebration into a cherished lifelong memory.</p>
+                    </div>
+                </div>
+
+                <!-- Mission Item -->
+                <div class="vision-mission-item animate-fadeInUp" style="animation-delay: 0.8s;">
+                    <img src="image/tick.jpg" alt="Team members collaborating and planning an event" class="vision-mission-image">
+                    <div class="vision-mission-text">
+                        <div class="vision-mission-title2">Our Mission</div>
+                        <p>To design and deliver exceptional events by transforming spaces with creativity, attention to detail, and a deep understanding of each client’s unique vision.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

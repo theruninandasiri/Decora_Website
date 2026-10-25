@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <img src="image/logo-removebg-preview.png" class="logo" alt="">
+            <h1 class="logo">Decora </h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#events">Services</a>
+                <a href="#">Contact us</a>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <div class="tag-box">
+                    <div class="tag">Decora events </div>
+                </div>
+                <h1>Make your events <br>Memorable.</h1>
+                <p class="description">
+                    <!--#-->
+                </p>
+                <div class="buttons">
+                    <a href="packages.html" class="btn-signing-main">Book Now &gt;</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <spline-viewer class="robot-3d" url="https://prod.spline.design/YwkC6MbtQ80AdVNK/scene.splinecode"></spline-viewer>
+   <!-- carousel -->
+   <div class="carousel">
+    <hr>
+    <!-- list item -->
+    <div class="list">
+        <div class="item">
+            <img src="image/img.webp">
+            <div class="content">
+                <div class="author">Design your perfect day</div>
+                <div class="title">Book Yours</div>
+                <div class="topic">Now</div>
+                <div class="des">
+                    We are really amazed to provide you this offer and make your events memorable. This will be an amazing addition to all your events. And of course, prints always have a special feel and place in your heart.                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/event16.webp">
+            <div class="content">
+                <div class="author">Design your perfect day</div>
+                <div class="title">Book Yours</div>
+                <div class="topic">Now</div>
+                <div class="des">
+                    We are really amazed to provide you this offer and make your events memorable. This will be an amazing addition to all your events. And of course, prints always have a special feel and place in your heart.                </div>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/event17.jpg">
+            <div class="content">
+                <div class="author">Design your perfect day</div>
+                <div class="title">Book Yours</div>
+                <div class="topic">Now</div>
+                <div class="des">
+                    We are really amazed to provide you this offer and make your events memorable. This will be an amazing addition to all your events. And of course, prints always have a special feel and place in your heart.                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/wvwnt.webp">
+            <div class="content">
+                <div class="author">Design your perfect day</div>
+                <div class="title">Book Yours</div>
+                <div class="topic">Now</div>
+                <div class="des">
+                    We are really amazed to provide you this offer and make your events memorable. This will be an amazing addition to all your events. And of course, prints always have a special feel and place in your heart.                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- list thumnail -->
+    <div class="thumbnail">
+        <div class="item">
+            <img src="image/img.webp">
+            <div class="content">
+                <div class="title">
+                    Wedding photography
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/event16.webp">
+            <div class="content">
+                <div class="title">
+                    Dinner party
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/event17.jpg">
+            <div class="content">
+                <div class="title">
+                    Birthdays
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/wvwnt.webp">
+            <div class="content">
+                <div class="title">
+                    Annivessary
+                </div>
+                <div class="description">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- next prev -->
+
+    <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <!-- time running -->
+    <div class="time"></div>
+</div>
+<hr>
+<!--events-->
+<div id="events">
+        <section class="events-section">
+            <div class="container">
+
+                <div class="section-header animate-fadeInUp" style="animation-delay: 0.1s;">
+                    <h2 class="section-title font-serif">What We Do</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <p class="intro-text animate-fadeInUp" style="animation-delay: 0.3s;">
+                    At Decora, we specialize in crafting unforgettable moments through bespoke event decor. Our services cover a wide range of occasions, including:
+                </p>
+
+                <div class="services-grid">
+                    
+                    <div class="service-card animate-fadeInUp" style="animation-delay: 0.5s;">
+                        <img class="service-card-img" src="image/church-wedding.jpeg" alt="Church Wedding Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">Church Weddings</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card animate-fadeInUp" style="animation-delay: 0.6s;">
+                        <img class="service-card-img" src="image/poruwa.jpeg" alt="Poruwa Ceremony Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">Poruwa Ceremonies</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card animate-fadeInUp" style="animation-delay: 0.7s;">
+                        <img class="service-card-img" src="image/beach wedding decorations.jpeg" alt="Beach Wedding Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">Beach Weddings</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card animate-fadeInUp" style="animation-delay: 0.8s;">
+                        <img class="service-card-img" src="image/engagement decorations.jpg" alt="Homecoming Event Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">Homecoming Events</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card animate-fadeInUp" style="animation-delay: 0.9s;">
+                        <img class="service-card-img" src="image/holy communion decos.jpeg" alt="Engagement Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">Engagements</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card animate-fadeInUp" style="animation-delay: 1.0s;">
+                        <img class="service-card-img" src="image/proposal.jpeg" alt="Proposal Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">Proposals</span>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card card-centered animate-fadeInUp" style="animation-delay: 1.1s;">
+                        <img class="service-card-img" src="image/brid2be.jpg" alt="Bride-to-be Celebration Decoration">
+                        <div class="service-card-content">
+                            <span class="service-card-title">“Bride-to-be” Celebrations</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="detailed-description">
+                    <p class="animate-fadeInUp" style="animation-delay: 1.2s;">
+                        No matter where your inspiration comes from, we bring your vision to life with fully customized decorations. From woodwork and lighting to florals and personalized candle arrangements, every detail is carefully curated to suit your preferences.
+                    </p>
+                    <p class="animate-fadeInUp" style="animation-delay: 1.3s;">
+                        We work with both fresh and artificial flowers and greenery to match your theme, and we offer specialty features like dynamic lighting effects and fireworks to make your celebration truly stand out.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+  </div>
+  <hr>
+<section class="section__container">
+    <h1>What our customers say</h1>
+    <div class="section__grid">
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Love the simplicity</h4>
+        <p>
+          They understood our brand and created a stunning website design.
+          Professional, responsive, and on-time delivery. Highly recommended!
+        </p>
+        <img src="image1.jpg" alt="user" />
+        <h5>Allan Collins</h5>
+        <h6>Managing Director</h6>
+      </div>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Excellent Designs</h4>
+        <p>
+          Efficient, reliable, and results-oriented. Visually appealing
+          website, improved online visibility. Highly recommended!
+        </p>
+        <img src="image2.jpg" alt="user" />
+        <h5>Tanya Grant</h5>
+        <h6>Ceo & Founder</h6>
+      </div>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Efficient and Reliable</h4>
+        <p>
+          Best decision we made. Stunning website, exceptional support. Always
+          available and prompt issue resolution. Hassle-free experience!
+        </p>
+        <img src="image4.jpg" alt="user" />
+        <h5>Clay Washington</h5>
+        <h6>Fashion Designer</h6>
+      </div>
+    </div>
+  </section>
+  <hr>
+ <!--Values section-->
+  <section class="core-values">
+  <h2>Our Beliefs</h2>
+  <p class="subtitle">The Cornerstones of Our Commitment and Values</p>
+  
+  <div class="values-grid">
+    <div class="value-box">
+      <img src="image/creativity.jpeg" alt="Creativity Icon">
+      <h3>Creativity</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/quality.jpeg" alt="Quality Icon">
+      <h3>Quality</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/consumer-centric.jpeg" alt="Customer-Centric Icon">
+      <h3>Customer-Centric Approach</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/integrity.jpeg" alt="Integrity Icon">
+      <h3>Integrity</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/collaborate.jpeg" alt="Collaboration Icon">
+      <h3>Collaboration</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/sustainability.jpeg" alt="Sustainability Icon">
+      <h3>Sustainability</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/passion.jpeg" alt="Passion Icon">
+      <h3>Passion</h3>
+    </div>
+
+    <div class="value-box">
+      <img src="image/growth.jpeg" alt="Growth Icon">
+      <h3>Growth</h3>
+    </div>
+  </div>
+</section>
+  <!--Footer-->
+  <footer>
+    <div class="row">
+        <div class="col">
+            <div class="naMe"><h2>Decora Events</h2></div>
+            <img src="image/logo-removebg-preview.png" class="logo" alt="">
+            <p>Spark Photography: Illuminating your moments, crafting your memories. We capture the essence of your story with creativity and precision.
+            </p>
+        </div>
+        <div class="col">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            <p>Spark photography</p>
+            <p>Arcade Independence Square</p>
+            <p>Colombo 07</p>
+            <p class="email-id">y@gmailcom</p>
+            <h4>+94 72 </h4>
+        </div>
+        <div class="col">
+            <h3>Links <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#events">Services</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="packages.html">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Newsletter <div class="underline"><span></span></div></h3>
+            <form>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="Enter your email ID">
+                <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">  NaRa &#169; 2025-All-rights Reserved</p>
+  </footer>
+
+
+
+
+<script src="app.js"></script>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.44/build/spline-viewer.js"></script>
+<script src="https://kit.fontawesome.com/411e566d13.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+</body>
+</html>
